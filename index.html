@@ -4,13 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Find Replace Game</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
 
 <body>
-
+    <div id="container">
+        <div id="box">
+            <textarea id="value" cols="55" rows="12" placeholder="Enter Sentence"></textarea>
+            <input type="text" id="find" placeholder="Find Word">
+            <input type="text" id="replace" placeholder="Replace Word">
+            <button id="btn" onclick="findreplace()";> Replace</button>
+        </div>
+        <div id="replace_word">
+            <input type="text" placeholder="Replace sentence" id="change">
+        </div>
+    </div>
 </body>
 
 </html>
