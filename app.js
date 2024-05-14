@@ -4,10 +4,12 @@ function findreplace() {
     let replaceword = document.getElementById("replace");
     let update = document.getElementById("btn");
     let changed = document.getElementById("change");
+    let one = document.getElementById("first");
 
     let replaced = para.value.replaceAll(findword.value,replaceword.value);
-    changed.innerText = para.value;
-    update.innerText = replacedvalue;
+    update.innerText = para.value;
+    one.innerText = para.value
+    changed.innerText = replaced;
     
     
 }   
